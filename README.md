@@ -15,7 +15,7 @@
 
 ## What is Svelte?
 
-Svelte is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+Svelte is a new way to build web applications. It's a compiler that takes your react components and converts them into efficient JavaScript that surgically updates the DOM.
 
 Learn more at the [Svelte website](https://svelte.dev), or stop by the [Discord chatroom](https://svelte.dev/chat).
 
@@ -27,7 +27,7 @@ Pull requests are encouraged and always welcome. [Pick an issue](https://github.
 To install and work on Svelte locally:
 
 ```bash
-git clone https://github.com/sveltejs/svelte.git
+git clone https://github.com/ghaliba3/svelte.git
 cd svelte
 npm install
 ```
@@ -36,7 +36,7 @@ npm install
 
 > Many tests depend on newlines being preserved as `<LF>`. On Windows, you can ensure this by cloning with:
 > ```bash
-> git -c core.autocrlf=false clone https://github.com/sveltejs/svelte.git
+> git -c core.autocrlf=false clone https://github.com/ghaliba3/svelte.git
 > ```
 
 To build the compiler, and all the other modules included in the package:
@@ -51,7 +51,7 @@ To watch for changes and continually rebuild the package (this is useful if you'
 npm run dev
 ```
 
-The compiler is written in [TypeScript](https://www.typescriptlang.org/), but don't let that put you off — it's basically just JavaScript with type annotations. You'll pick it up in no time. If you're using an editor other than [Visual Studio Code](https://code.visualstudio.com/) you may need to install a plugin in order to get syntax highlighting and code hints etc.
+The compiler is written in [TypeScript](https://www.typescriptlang.org/), but don't let that put you off — it's basically just JavaScript with type annotations. You'll pick it up in no time. 
 
 
 ### Running Tests
